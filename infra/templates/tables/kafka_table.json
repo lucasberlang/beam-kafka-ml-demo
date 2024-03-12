@@ -1,0 +1,92 @@
+[
+  {
+      "name": "step",
+      "type": "INT64",
+      "mode": "NULLABLE",
+      "description": "Step of transaction"
+  },
+  {
+      "name": "type",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Type of transaction"
+  },
+  {
+    "name": "amount",
+    "type": "FLOAT",
+    "mode": "NULLABLE",
+    "description": "Amount of transaction"
+  },
+  {
+      "name": "nameOrig",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Customer who started the transaction"
+  },
+  {
+    "name": "oldBalanceOrig",
+    "type": "FLOAT",
+    "mode": "NULLABLE",
+    "description": "Initial balance before the transaction"
+  },
+  {
+    "name": "newBalanceOrig",
+    "type": "FLOAT",
+    "mode": "NULLABLE",
+    "description": "New balance after the transaction."
+  },
+  {
+      "name": "nameDest",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Customer who is the recipient of the transaction"
+  },
+  {
+      "name": "oldBalanceDest",
+      "type": "FLOAT",
+      "mode": "NULLABLE",
+      "description": "Initial balance recipient before the transaction. Note that there is not information for customers that start with M (Merchants)."
+  },
+  {
+      "name": "newBalanceDest",
+      "type": "FLOAT",
+      "mode": "NULLABLE",
+      "description": "New balance recipient after the transaction. Note that there is not information for customers that start with M (Merchants)."
+  },
+  {
+    "name": "latitude",
+    "type": "FLOAT",
+    "mode": "NULLABLE",
+    "description": "Latitude of transaction"
+  },
+  {
+    "name": "longitude",
+    "type": "FLOAT",
+    "mode": "NULLABLE",
+    "description": "Longitude of transaction"
+  },
+  {
+    "name": "lat_lng",
+    "type": "GEOGRAPHY",
+    "mode": "NULLABLE",
+    "description": "Variable to indicate latitude and longitude"
+  },
+  {
+      "name": "timestamp",
+      "type": "TIMESTAMP",
+      "mode": "NULLABLE",
+      "description": "Timestamp of the message"
+  },
+  {
+      "name": "score",
+      "type": "FLOAT",
+      "mode": "NULLABLE",
+      "description": "Score to see if transaction is Fraude"
+  },
+  {
+    "name": "processing_time",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE",
+    "description": "Variable to indicate de processing time"
+  }
+]
