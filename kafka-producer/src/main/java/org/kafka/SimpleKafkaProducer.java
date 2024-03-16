@@ -84,7 +84,7 @@ public class SimpleKafkaProducer {
             System.out.println("Message sent: " + message);
 
             try {
-                Thread.sleep(1);
+                Thread.sleep(10000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

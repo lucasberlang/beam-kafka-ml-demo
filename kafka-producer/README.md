@@ -37,8 +37,8 @@ Open a new terminal and run the following commands.
 
     ```
     ...
-    Message sent: {"amount":307,"latitude":-55.365952,"transaction":"bdd5fee5-60ef-4efd-84cc-2f2a67a95227","latLng":"(-55.365952,38.236547)","longitude":38.236547,"timestamp":"2024-02-15 18:54:25"}
-    Message sent: {"amount":285,"latitude":-42.358339,"transaction":"77c56c54-1cb2-4643-b7ca-cd1068e7d562","latLng":"(-42.358339,90.062827)","longitude":90.062827,"timestamp":"2024-02-15 18:54:27"}
-    Message sent: {"amount":404,"latitude":52.290886,"transaction":"fe523ff3-0436-4b67-8f16-479200a2b3fe","latLng":"(52.290886,-44.808988)","longitude":-44.808988,"timestamp":"2024-02-15 18:54:28"}
+    Message sent: {"nameDest":"C931708965","amount":641283.99,"newBalanceOrig":6607597.069999999,"oldBalanceOrig":7248881.06,"newBalanceDest":7976840.78,"latitude":-47.057015,"step":716,"oldBalanceDest":7335556.79,"type":"DEBIT","nameOrig":"C526024005","longitude":169.086753,"timestamp":"2024-03-13 17:10:44"}
+    Message sent: {"nameDest":"C280980768","amount":862637.36,"newBalanceOrig":7865130.83,"oldBalanceOrig":7002493.47,"newBalanceDest":0,"latitude":-19.644464,"step":492,"oldBalanceDest":344421.79,"type":"CASH_IN","nameOrig":"C374395053","longitude":104.18229,"timestamp":"2024-03-13 17:10:54"}
+    Message sent: {"nameDest":"C89461874","amount":841680.05,"newBalanceOrig":2877499.9799999995,"oldBalanceOrig":3719180.03,"newBalanceDest":1649534.54,"latitude":-78.459997,"step":302,"oldBalanceDest":807854.49,"type":"TRANSFER","nameOrig":"C139677676","longitude":114.443676,"timestamp":"2024-03-13 17:11:04"}
     ...
     ```
